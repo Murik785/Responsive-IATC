@@ -5,6 +5,7 @@
     font-size: 40px;
     color: white;
     box-sizing: border-box;
+    /* float: left; */
 }
 
 
@@ -39,7 +40,7 @@
     width: 25%;
     min-height: 65vh;
     background: #67A4FF;
-    padding: 15px;
+    /* margin: 10px 0; */
     display: flex;   
     justify-content: center;
     align-items: center;
@@ -59,13 +60,19 @@
     width: 25%;
     min-height: 65vh;
     background: #67A4FF;
-    padding: 20px;
+    /* margin: 10px 0; */
     display: flex;   
     justify-content: center;
     align-items: center;
 }
 
 
+@media only screen and (min-width: 600px) and (max-width: 998px) {
+    
+    .left, .center, .right{
+        width: 33%;
+    }
+}
 
 
 
@@ -77,6 +84,7 @@
     .left {
         min-height: 20vh;
         width: 100%;
+
     }
     .center {
         min-height: 20vh;
@@ -88,11 +96,3 @@
         min-height: 20vh;
     }
 }
- 
-@media only screen and (min-width: 768px) {
-    
-    .left, .center, .right{
-        width: 33%;
-    }
-}
-
